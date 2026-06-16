@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOSHIBO | Independent Smart Home Electronics</title>
+  <meta name="description" content="TOSHIBO is an independent smart-home electronics brand for calm, connected, easy-living homes.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand-lockup" href="index.html" aria-label="TOSHIBO home">
+        <img src="assets/toshibo-logo.png" alt="TOSHIBO logo">
+      </a>
+      <div class="nav-links">
+        <a href="#home" data-i18n="nav.home">首页</a>
+        <a href="#products" data-i18n="nav.products">产品</a>
+        <a href="#system" data-i18n="nav.system">系统</a>
+        <a href="#contact" data-i18n="nav.contact">联系</a>
+        <button class="lang-toggle active" type="button" data-lang="zh">中文</button>
+        <button class="lang-toggle" type="button" data-lang="en">English</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section" id="home">
+      <div class="hero-card">
+        <img class="hero-image" src="assets/hero-banner.png" alt="TOSHIBO smart home product lineup">
+        <div class="hero-copy">
+          <span class="eyebrow" data-i18n="hero.eyebrow">独立智能家居电子品牌</span>
+          <h1 data-i18n="hero.title">让家更安静地聪明起来</h1>
+          <p data-i18n="hero.body">TOSHIBO 用空气、照明、网络、厨房和清洁设备组成一个柔和的智能家居系统，让日常生活更顺手。</p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#products" data-i18n="hero.ctaProducts">探索产品</a>
+            <a class="secondary-btn" href="#system" data-i18n="hero.ctaSystem">了解系统</a>
+          </div>
+        </div>
+      </div>
+      <p class="brand-note" data-i18n="hero.note">说明：TOSHIBO 是本站创建的独立智能家居电子品牌，不隶属于 Toshiba、东芝或任何同名/近似名称企业，也不代表其产品线。</p>
+    </section>
+
+    <section class="intro-band" id="system">
+      <div class="intro-grid">
+        <div>
+          <span class="section-kicker" data-i18n="intro.kicker">Connected Home System</span>
+          <h2 data-i18n="intro.title">从单个设备，到完整的居家节奏</h2>
+        </div>
+        <p data-i18n="intro.body">TOSHIBO 把净化、照明、声音、网络、厨房管理、清洁和感知能力放进统一设计语言。设备安静工作，信息清楚可见，控制方式简单直接。</p>
+      </div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker" data-i18n="products.kicker">Featured Products</span>
+          <h2 data-i18n="products.title">精选产品</h2>
+        </div>
+        <p data-i18n="products.body">9 款首发智能家居电子产品，覆盖空气、照明、声音、厨房、清洁、网络、环境感知与桌面充电场景。</p>
+      </div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-copy">
+        <span class="section-kicker" data-i18n="about.kicker">Why TOSHIBO</span>
+        <h2 data-i18n="about.title">看得见的秩序，感受得到的安静</h2>
+        <p data-i18n="about.body">TOSHIBO 的产品不追求喧闹的屏幕和复杂操作，而是用统一的材质、柔和的青色状态光和清晰的场景逻辑，把家里的电子设备变得更克制、更好用。</p>
+      </div>
+      <div class="stats-panel" aria-label="Brand highlights">
+        <div>
+          <strong>9</strong>
+          <span data-i18n="about.statProducts">款首发设备</span>
+        </div>
+        <div>
+          <strong>TB</strong>
+          <span data-i18n="about.statMark">原创品牌标识</span>
+        </div>
+        <div>
+          <strong>0</strong>
+          <span data-i18n="about.statAffiliation">东芝关联</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div>
+        <span class="section-kicker" data-i18n="contact.kicker">Contact</span>
+        <h2 data-i18n="contact.title">为安静、整洁、互联的家而设计</h2>
+        <p data-i18n="contact.body">如需品牌合作、渠道洽谈或产品资料，请联系 TOSHIBO 智能家居团队。</p>
+      </div>
+      <a class="primary-btn" href="mailto:hello@toshibo-home.example" data-i18n="contact.cta">联系品牌团队</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="footer.copy">© 2026 TOSHIBO. Independent smart-home electronics brand.</p>
+    <p data-i18n="footer.note">Not affiliated with Toshiba, 东芝, or any similarly named company. This is an independent concept brand website.</p>
+  </footer>
+
+  <script src="product-data.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
